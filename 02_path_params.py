@@ -6,7 +6,7 @@ from _util import app
 
 
 @app.get("/foo/{bar}")
-def foo(bar: int):
+async def foo(bar: int):
     return {"foo": bar}
 
 """
