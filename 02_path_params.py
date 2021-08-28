@@ -2,9 +2,7 @@
 Add path parameters to an endpoint
 """
 
-from fastapi import FastAPI
-
-app = FastAPI(title="path_params")
+from _util import app
 
 
 @app.get("/foo/{bar}")

@@ -2,9 +2,7 @@
 A simple app, serving some data on /foo
 """
 
-from fastapi import FastAPI
-
-app = FastAPI(title="hello_world")
+from _util import app
 
 
 @app.get("/foo")
